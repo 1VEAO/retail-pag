@@ -1,0 +1,44 @@
+.banner-promociones{
+  height: 20rem;
+  background-color: rgba(0, 0, 0, .5);
+  overflow: hidden;
+  width: 100%;
+}
+
+.cont-3images{
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+
+.a{
+  width: 100%;
+  height: 100%;
+
+}
+
+.c1{
+  background-image: url('../assets/hero_bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.c2{
+  background-color: blue;
+}
+
+.c3{
+  background-color: blueviolet;
+}
+
+.c4{
+  background-color: chartreuse;
+}
+
+@keyframes mov-scrol {
+  0%{margin-left: 0%;}
+  25%{margin-left: -25%;}
+  50%{margin-left: -50%;}
+  75%{margin-left: -75%;}
+  100%{margin-left: 0%;}
+}
