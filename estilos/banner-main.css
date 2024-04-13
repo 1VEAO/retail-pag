@@ -3,16 +3,20 @@
   background-color: rgba(0, 0, 0, .5);
   overflow: hidden;
   width: 100%;
+  position: absolute;
+  z-index: -5;
+  top: 150px;
 }
 
 .cont-3images{
   width: 400%;
   height: 100%;
   display: flex;
+  z-index: -100;
 }
 
 .a{
-  width: 100%;
+  width: 25%;
   height: 100%;
 
 }
@@ -21,6 +25,11 @@
   background-image: url('../assets/hero_bg.png');
   background-position: center;
   background-size: cover;
+  animation: mov-scrol;
+  animation-duration: 30s;
+  animation-iteration-count: cubic-bezier(0,0,0,15);
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
 }
 
 .c2{
@@ -41,4 +50,88 @@
   50%{margin-left: -50%;}
   75%{margin-left: -75%;}
   100%{margin-left: 0%;}
+}
+
+@media (width < 600px) {
+  .banner-promociones{
+    top: 120px;
+  }
+}
+
+
+
+/* estilos productos card */
+
+
+.card-container{
+  margin-top: 220px;
+  display: grid;
+  grid-template-columns: repeat(4, 25rem);
+  justify-content: center;
+  gap: 10rem;
+}
+
+.card-container > a{
+  color: black;
+  text-decoration: none;
+}
+
+.card > :first-child{
+  border-radius: 20px 20px 0 0;
+  gap: 0;
+}
+
+.info-card{
+  background-color: rgba(0, 0, 0, .3);
+  height: 15rem;
+  border-radius: 0 0 20px 20px;
+  padding: 1rem;
+}
+
+.info-card > :first-child{
+  font-size: 2rem;
+}
+
+.info-card > :nth-child(2){
+  font-size: 1.5rem;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.price > :first-child{
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+.price > :last-child{
+  font-size: 2rem;
+  color: rgb(0, 141, 0);
+}
+
+.info-card > :last-child{
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+}
+
+@media (width < 1400px) {
+  .card-container{
+    grid-template-columns: repeat(3, 25rem);
+  }
+}
+
+@media (width < 1100px) {
+  .card-container{
+    grid-template-columns: repeat(2, 25rem);
+    gap: 5rem;
+  }
+}
+
+@media (width < 650px) {
+  .card-container{
+    grid-template-columns: 25rem;
+  }
 }

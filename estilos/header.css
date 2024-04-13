@@ -53,12 +53,14 @@
   font-size: 2rem;
   color: rgb(255, 255, 255);
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 
 .fa-solid{
   font-size: 2rem;
   color: rgb(255, 255, 255);
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 
 .fa-brands:hover{
@@ -130,7 +132,7 @@
 
 .header-mobile{
   height: 12rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .search-mobile{
@@ -140,6 +142,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
+  
 }
 
 .search-mobile > :first-child{
@@ -162,11 +165,15 @@
 .search-mobile > :last-child{
   width: 100px;
   height: 5px;
-  /* font-size: 2rem; */
   text-align: center;
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
   cursor: pointer;
+  transition: width 0.5s ease;
+}
+
+.search-mobile > :last-child:hover{
+  width: 80px;
 }
 
 /* scrol nav */
@@ -181,8 +188,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 2rem 0;
-  top: -80px;
-  z-index: -100;
+  z-index: -1;
   transition: top 0.5s ease;
 }
 
@@ -190,21 +196,25 @@
 
 
 /* termino animacion */
-.nav-rrss > .rrss{
+.nav-rrss > .rrss-mobile{
   width: 120px;
   display: flex;
   justify-content: space-between;
 }
 
-.nav-rrss > :nth-child(2), :nth-child(3), :nth-child(4), :nth-child(5){
+.enlace{
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: bold;
   text-transform: capitalize;
   transition: transform 0.5s ease;
+  cursor: pointer;
 }
 
-.nav-rrss > :nth-child(2):hover, :nth-child(3):hover, :nth-child(4):hover, :nth-child(5):hover{
+.enlace:hover{
   transform: scale(1.2);
 }
+/* .nav-rrss > :nth-child(2):hover, :nth-child(3):hover, :nth-child(4):hover, :nth-child(5):hover{
+  transform: scale(1.2);
+} */
