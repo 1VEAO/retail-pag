@@ -1,5 +1,5 @@
 const barScrol = document.getElementsByClassName('bar')[0];
-const navRrss = document.getElementsByClassName('nav-rrss')[0];
+const navRrss = document.getElementsByClassName('cont-nav-rrss')[0];
 
 barScrol.addEventListener('click', function scrol() {
  if (navRrss.style.top == '-80px') {
