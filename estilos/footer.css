@@ -1,0 +1,30 @@
+.footer-wrap{
+  width: 100vw;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+  flex-wrap: wrap;
+}
+
+.cont{
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.cont h1{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.cont p{
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  margin-bottom: .5rem;
+}

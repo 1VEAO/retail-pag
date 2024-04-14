@@ -146,7 +146,7 @@
   
 }
 
-.search-mobile > :first-child{
+.search-mobile > :first-child img{
   width: 100px;
 }
 
@@ -200,7 +200,7 @@
 
 
 /* termino animacion */
-.nav-rrss > .rrss-mobile{
+.nav-rrss > .rrss-mobile {
   width: 120px;
   display: flex;
   justify-content: space-between;

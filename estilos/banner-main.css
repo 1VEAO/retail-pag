@@ -65,6 +65,7 @@
 
 .card-container{
   margin-top: 220px;
+  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: repeat(4, 25rem);
   justify-content: center;
@@ -126,7 +127,7 @@
 @media (width < 1100px) {
   .card-container{
     grid-template-columns: repeat(2, 25rem);
-    gap: 5rem;
+    /* gap: 5rem; */
   }
 }
 
