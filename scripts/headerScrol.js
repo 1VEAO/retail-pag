@@ -8,9 +8,3 @@ barScrol.addEventListener('click', function scrol() {
   navRrss.style.setProperty('top', '-80px')
  }
 })
-
-
-// prueba promociones
-
-const bannerProm = document.getElementsByClassName('banner-promociones')[0];
-// bannerProm.innerHTML=('<img src="./assets/hero_bg.png" alt="logo">')

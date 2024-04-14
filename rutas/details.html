@@ -10,6 +10,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="../estilos/generales.css">
   <link rel="stylesheet" href="../estilos/header.css">
+  <link rel="stylesheet" href="../estilos/main-details.css">
   <title>Document</title>
 </head>
 <body>
@@ -59,10 +60,149 @@
   </header>
 
   <main>
-    
+    <section class="cont-product-selection">
+      <div class="product-slider">
+        <div class="select-view">
+          <div class="mock1 mock"></div>
+          <div class="mock2 mock"></div>
+        </div>
+        <div class="img-view">
+          <div class="mock1 mocki mock-scrol" style="margin-top: 0%;"></div>
+          <div class="mock2 mocki"></div>
+        </div>
+      </div>
+      <div class="product-description">
+        <h1>MacBook Pro 13'4</h1>
+        <label for="color">
+          <span>color</span>
+          <select name="color" id="color">
+            <option value="silver">silver</option>
+            <option value="black">black</option>
+            <option value="red">red</option>
+          </select>
+        </label>
+        <div class="description">
+          <h1>descripcion</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis possimus assumenda dignissimos sapiente consequatur magni a distinctio, dolore totam quo labore recusandae quisquam iure rerum tempora eligendi obcaecati cupiditate ex error suscipit, ipsa nihil adipisci. Recusandae sequi enim, corporis voluptates suscipit quo aspernatur eos. Voluptates laborum temporibus iste libero ipsa.</p>
+        </div>
+      </div>
+      <div class="product-price">
+        <span>total:</span>
+        <div class="price-igv">
+          <h1>$750000</h1>
+          <p>Incluye Impuestos PAIS y percepcion AFIP. Podes recuperar AR$ 50711 haciendo la solicitud AFIP</p>
+        </div>
+        <div class="envio">
+          <div class="envio-tierra env">
+            <img src="../assets/truck.png" alt="trunck">
+            <p>Agregar el producto al carrito para conocer los costos de envio</p>
+          </div>
+          <div class="envio-aire env">
+            <img src="../assets/plane.png" alt="plane">
+            <p>Recibir aproximadamente entre 10 y 15 dias habiles, seleccionando encio normal</p>
+          </div>
+        </div>
+        <div class="botones">
+          <input type="number" name="" id="" min="0" max="10">
+          <button>añadir al carrito</button>
+        </div>
+      </div>
+    </section>
+    <h1 class="ofertas">ofertas de la semana</h1>
+    <section class="card-container">
+      <a href="../rutas/details.html">
+        <div class="card">
+          <img src="../assets/mock2.jpg" alt="mock1" style="max-width: 250px;">
+          <div class="info-card">
+            <h1>MacBook Pro 15'4</h1>
+            <span>Space Gray</span>
+            <div class="price">
+              <h1>$750.000</h1>
+              <span>50% Off</span>
+            </div>
+            <span>Incluye inpuestos Pais y percepcion AFIP</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="../rutas/details.html">
+        <div class="card">
+          <img src="../assets/mock2.jpg" alt="mock1" style="max-width: 250px;">
+          <div class="info-card">
+            <h1>MacBook Pro 15'4</h1>
+            <span>Space Gray</span>
+            <div class="price">
+              <h1>$750.000</h1>
+              <span>50% Off</span>
+            </div>
+            <span>Incluye inpuestos Pais y percepcion AFIP</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="../rutas/details.html">
+        <div class="card">
+          <img src="../assets/mock2.jpg" alt="mock1" style="max-width: 250px;">
+          <div class="info-card">
+            <h1>MacBook Pro 15'4</h1>
+            <span>Space Gray</span>
+            <div class="price">
+              <h1>$750.000</h1>
+              <span>50% Off</span>
+            </div>
+            <span>Incluye inpuestos Pais y percepcion AFIP</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="../rutas/details.html">
+        <div class="card">
+          <img src="../assets/mock2.jpg" alt="mock1" style="max-width: 250px;">
+          <div class="info-card">
+            <h1>MacBook Pro 15'4</h1>
+            <span>Space Gray</span>
+            <div class="price">
+              <h1>$750.000</h1>
+              <span>50% Off</span>
+            </div>
+            <span>Incluye inpuestos Pais y percepcion AFIP</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="../rutas/details.html">
+        <div class="card">
+          <img src="../assets/mock2.jpg" alt="mock1" style="max-width: 250px;">
+          <div class="info-card">
+            <h1>MacBook Pro 15'4</h1>
+            <span>Space Gray</span>
+            <div class="price">
+              <h1>$750.000</h1>
+              <span>50% Off</span>
+            </div>
+            <span>Incluye inpuestos Pais y percepcion AFIP</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="../rutas/details.html">
+        <div class="card">
+          <img src="../assets/mock2.jpg" alt="mock1" style="max-width: 250px;">
+          <div class="info-card">
+            <h1>MacBook Pro 15'4</h1>
+            <span>Space Gray</span>
+            <div class="price">
+              <h1>$750.000</h1>
+              <span>50% Off</span>
+            </div>
+            <span>Incluye inpuestos Pais y percepcion AFIP</span>
+          </div>
+        </div>
+      </a>
+    </section>
   </main>
 
-
+  <script src="../scripts/sliderImage.js"></script>
   <script src="../scripts/headerScrol.js"></script>
   <script src="https://kit.fontawesome.com/f1892a5318.js" crossorigin="anonymous"></script>
 </body>
