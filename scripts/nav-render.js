@@ -1,10 +1,10 @@
 let navCont = document.getElementsByClassName('navegation')[0]
 
 const options = [
- { title: "Como Comprar", linkTo: "./how.html" },
- { title: "Costos y Tarifas", linkTo: "./taxs.html" },
- { title: "Mis Pedidos", linkTo: "./orders.html" },
- { title: "Garantia", linkTo: "./warranty.html" },
+ { title: "Como Comprar", linkTo: "./rutas/how.html" },
+ { title: "Costos y Tarifas", linkTo: "./rutas/taxs.html" },
+ { title: "Mis Pedidos", linkTo: "./rutas/orders.html" },
+ { title: "Garantia", linkTo: "./rutas/warranty.html" },
 ];
 
 for (let option of options) {
