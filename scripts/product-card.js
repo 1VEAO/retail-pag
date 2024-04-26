@@ -1,4 +1,5 @@
 let cardCont = document.getElementsByClassName('card-container')[0];
+const search = document.getElementsByClassName('search-inp')[0]
 
 class cardItem {
  constructor(img, productName, productModel, productPrice, discount, igv) {
@@ -23,7 +24,7 @@ for (const product of productsArray) {
  const classPrice = document.createElement('div');
  const productPrice = document.createElement('h1');
  const discount = document.createElement('span');
- const igv= document.createElement('span');
+ const igv = document.createElement('span');
  link.href = "./rutas/details.html"
  classCard.className = 'card'
  classInfoCard.className = 'info-card'
@@ -41,7 +42,7 @@ for (const product of productsArray) {
  discount.textContent = product.discount
 
  igv.textContent = product.igv
- 
+
  classPrice.appendChild(productPrice)
  classPrice.appendChild(discount)
 
@@ -49,7 +50,7 @@ for (const product of productsArray) {
  classInfoCard.appendChild(modelProduct)
  classInfoCard.appendChild(classPrice)
  classInfoCard.appendChild(igv)
- 
+
  classCard.appendChild(imgMok)
  classCard.appendChild(classInfoCard)
 
@@ -57,3 +58,11 @@ for (const product of productsArray) {
 
  cardCont.appendChild(link)
 }
+
+
+// busqueda y filtrado
+
+
+search.addEventListener('keyup', function name(e) {
+
+})
