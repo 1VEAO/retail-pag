@@ -62,7 +62,14 @@
 
 /* estilos productos card */
 
-
+.card-containter_espe{
+  margin-top: 220px;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 25rem);
+  justify-content: center;
+  gap: 10rem;
+}
 .card-container{
   margin-top: 220px;
   margin-bottom: 2rem;
